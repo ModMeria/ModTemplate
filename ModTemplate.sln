@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36518.9 d17.14
+VisualStudioVersion = 17.14.36518.9
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModTemplate", "ModTemplate\ModTemplate.csproj", "{13C092F9-18C8-4365-9472-5D1C39A990F2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mod", "Mod\Mod.csproj", "{13C092F9-18C8-4365-9472-5D1C39A990F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModAPI.Abstractions", "ModAPI.Abstractions\ModAPI.Abstractions.csproj", "{10F5681C-7463-7441-1BBA-4B769E487FE0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{13C092F9-18C8-4365-9472-5D1C39A990F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13C092F9-18C8-4365-9472-5D1C39A990F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13C092F9-18C8-4365-9472-5D1C39A990F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10F5681C-7463-7441-1BBA-4B769E487FE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10F5681C-7463-7441-1BBA-4B769E487FE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10F5681C-7463-7441-1BBA-4B769E487FE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10F5681C-7463-7441-1BBA-4B769E487FE0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

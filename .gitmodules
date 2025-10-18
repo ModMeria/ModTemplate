@@ -1,0 +1,3 @@
+[submodule "ModAPI.Abstractions"]
+	path = ModAPI.Abstractions
+	url = https://github.com/ModMeria/ModAPI.Abstractions.git
